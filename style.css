@@ -241,7 +241,7 @@ section{
 	position:relative;
 }
 .section-spacing{
-	padding:110px 0;
+	padding:80px 0;
 }
 .no-spacing{
 	padding:0;
@@ -943,18 +943,20 @@ iframe {
 .inner-page-banner{
 	width:100%;
 	float:left;
-	height:450px;
+	min-height: 200px;
 	background-repeat:no-repeat;
 	background-position:center center;
 	-webkit-background-size:cover;
 	-ms-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;
+	font-family:canberra;
+	font-weight: 600;
 }
 .page-banner-caption{
 	position:absolute;
 	left:0;
-	top:50%;
+	top:30%;
 	width:100%;
 	-webkit-transform:translateY(-50%);
 	-ms-transform:translateY(-50%);
@@ -963,23 +965,27 @@ iframe {
 }
 .inner-page-banner h1{
 	position:relative;
-	font-weight:700;
+	font-weight:600;
 	padding-bottom:12px;
+	padding-top:50px; 
+	font-size: 45px;
 	text-transform: capitalize;
-	margin:0 0 20px;
+	margin:0 0 0px;
+	font-family: Canberra;
 }
 .inner-page-banner h1::before {
-    width: 70px;
-    height: 4px;
+    width: 50px;
+    height: 50px;
     position: absolute;
     left: 0;
     content: '';
-    background: #7d3c92;
     bottom: 0;
 }
 .breadcrumb{
 	padding:0;
 	background:none;
+	justify-content: center;
+
 }
 .breadcrumb li a:hover{
 	color:#7d3c92;
